@@ -1,10 +1,10 @@
-# vasilpoliakov.github.io
+# Vasil Poliakov — DevOps Portfolio
 
 Interactive DevOps terminal portfolio — a personal resume website styled as a Linux terminal.
 
 ## 🖥️ Live
 
-**[vasilpoliakov.github.io](https://vasilpoliakov.github.io)**
+**[mehagami.github.io/profile](https://mehagami.github.io/profile/)**
 
 ## Features
 
