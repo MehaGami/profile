@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasil Poliakov — DevOps Engineer</title>
+    <meta name="description" content="DevOps Engineer with 3+ years of experience in Terraform, Kubernetes, Docker, AWS, and CI/CD. Currently at Raiffeisen Bank Ukraine.">
+    <meta property="og:title" content="Vasil Poliakov — DevOps Engineer">
+    <meta property="og:description" content="Interactive DevOps terminal portfolio. Try typing terraform plan or kubectl get pods.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Info Card Section -->
+    <header class="info-card">
+        <div class="info-card__inner">
+            <div class="info-card__left">
+                <h1 class="info-card__name">Vasil Poliakov</h1>
+                <p class="info-card__role">DevOps Engineer</p>
+                <p class="info-card__summary">3+ years of hands-on experience with cloud infrastructure, IaC, containers, and CI/CD pipelines.</p>
+                <div class="info-card__badges">
+                    <span class="badge badge--green">AWS Certified ✓</span>
+                    <span class="badge badge--blue">Raiffeisen Bank</span>
+                    <span class="badge badge--cyan">Kubernetes</span>
+                    <span class="badge badge--purple">Terraform</span>
+                </div>
+            </div>
+            <div class="info-card__right">
+                <div class="info-card__contact">
+                    <a href="mailto:vasilpol203@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉</span> vasilpol203@gmail.com
+                    </a>
+                    <a href="tel:+380668399905" class="contact-link">
+                        <span class="contact-icon">☎</span> +380 (66) 839-99-05
+                    </a>
+                    <a href="https://www.credly.com/users/username.e300a5aa/badges" target="_blank" rel="noopener" class="contact-link">
+                        <span class="contact-icon">🏅</span> Credly Badges
+                    </a>
+                </div>
+                <div class="info-card__languages">
+                    <span class="lang">🇺🇦 Ukrainian</span>
+                    <span class="lang">🇬🇧 English B1-B2</span>
+                    <span class="lang">🇷🇺 Russian C2</span>
+                </div>
+            </div>
+        </div>
+        <p class="info-card__hint">⬇ Explore the interactive terminal below — type <code>help</code> to get started</p>
+    </header>
+
+    <!-- Terminal Section -->
+    <main class="terminal">
+        <div class="terminal__header">
+            <div class="terminal__dots">
+                <span class="dot dot--red"></span>
+                <span class="dot dot--yellow"></span>
+                <span class="dot dot--green"></span>
+            </div>
+            <span class="terminal__title">vasil@devops: ~</span>
+        </div>
+        <div class="terminal__body" id="terminal-body">
+            <div id="output"></div>
+            <div class="input-line">
+                <span class="prompt"><span class="prompt-user">vasil</span>@<span class="prompt-host">devops</span>:<span class="prompt-path">~</span>$ </span>
+                <input type="text" id="command-input" class="command-input" autofocus autocomplete="off" spellcheck="false" aria-label="Terminal command input">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Built with ☕ and <code>&lt;div&gt;</code>s &mdash; deployed on GitHub Pages &mdash; <a href="https://github.com/vasilpoliakov" target="_blank" rel="noopener">source</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
